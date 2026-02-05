@@ -3,6 +3,8 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0.5em;
+  background-color: #204B57;
+  border-radius: 10px;
 }
 
 .menu {
@@ -15,13 +17,14 @@ nav {
 .my-name {
   font-size: 20px;
   font-weight: bold;
-  font-family: sans-serif
+  font-family: sans-serif;
+  color: white;
 }
 
 .box {
   all: unset;
   border-radius: 10px;
-  border: 5px solid black;
+  border: 5px solid white;
   height: 50px;
   width: 50px;
 }
@@ -37,4 +40,8 @@ ul {
   display: flex;
   justify-content: right;
   gap: 1rem;
+}
+
+ul, a {
+  color: white;
 }
