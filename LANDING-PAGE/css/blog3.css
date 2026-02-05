@@ -1,0 +1,51 @@
+body {
+  margin-inline: 20em;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: "Georgia", serif;
+}
+
+
+span {
+  font-family: "Georgia", serif;
+}
+
+p {
+  font-size: 19px;
+  text-align: justify;
+  font-family: sans-serif;
+  
+  line-height: 1.5em;
+  padding-left: 1em;
+  border-left: 5px solid #197BBD;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #204B57;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+
+
+nav {
+  border-bottom: 2px solid black;
+}
+
+a {
+  all: unset;
+  font-size: 32px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
