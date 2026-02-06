@@ -21,30 +21,16 @@ nav {
   align-items: center;
   justify-content: space-around;
   width: 100px;
-  gap: 1rem;
 }
 
-.my-name {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: sans-serif;
-  color: white;
-}
 
 .box {
-  border-radius: 10px;
   border: 5px solid white;
   height: 50px;
-  width: 1000px;
+  width: 50px;
   cursor: pointer;
 }
 
-.link {
-  all: unset;
-  font-size: 25px;
-  font-family: sans-serif;
-  cursor: pointer;
-}
 
 ul {
   display: flex;
@@ -52,7 +38,11 @@ ul {
   gap: 2rem;
 }
 
-ul, a {
+ul > a {
+  all: unset;
+  font-size: 25px;
+  font-family: sans-serif;
+  cursor: pointer;
   color: white;
 }
 
