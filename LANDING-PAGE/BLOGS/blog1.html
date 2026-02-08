@@ -16,9 +16,9 @@
   <body>
     <nav>
       <div class="menu">
-        <a class="box" href="../landingpage.html"></a>
+        <a class="box" href="../landingpage.html"><img src="../pictures/blog_pics/home-icon.svg" alt="home icon" width="50" height="50"></a>
       </div>
-      <ul>
+      <ul class="nav-bar">
         <a class="link part1 jersey-25-regular" href="blog1.html">Tech</a>
         <a class="link part2 jersey-25-regular" href="blog2.html"
           >Personal Voice</a
@@ -27,11 +27,21 @@
       </ul>
     </nav>
 
+    <aside>
+      <div class="aside-bar">
+        <ul>
+          <a href="#introduction">Introduction</a>
+          <a href="#body">Body</a>
+          <a href="#conclusion">Conclusion</a>
+        </ul>
+      </div>
+    </aside>
+
     <main>
       <h1>A programming language that powers every technology in the world</h1>
       <hr />
       <!-- Introduction -->
-      <h2 class="intro-header">Why do I hate C++?</h2>
+      <h2 class="intro-header" id="introduction">Why do I hate C++?</h2>
       <p>
         I myself have used a lot of programming in my life, but one thing that I
         really hate the most is <em>C++</em>. Out of all the languages that I
@@ -42,7 +52,7 @@
         look much cleaner.
       </p>
 
-      <div class="blog-1-pic pic">
+      <div class="blog-1-pic1 pic">
         <img
           src="../pictures/blog_pics/blog1_pic1.webp "
           alt="Stickman sitting under the chair"
@@ -51,7 +61,7 @@
       </div>
 
       <!-- Body -->
-      <h2 class="body-header">An abomination?</h2>
+      <h2 class="body-header" id="body">An abomination?</h2>
       <p>
         C++ is just an <em>abomination</em>, if someone who is new to
         programming and tries to learn it they will for sure crash out, why you
@@ -65,9 +75,12 @@
         not beginner friendly at all, parang it demands discipline and attention
         to detail from the very start.
       </p>
+       <div class="blog-1-pic2 pic">
+        <img src="../pictures/blog_pics/error_c++.jpg" alt="C++ Errors" width="550px" height="350px">
+      </div>
 
       <!-- Conclusion -->
-      <h2>Respect the backbone</h2>
+      <h2 id="conclusion">Respect the backbone</h2>
       <p>
         But here’s the thing, C++ is the
         <em>backbone of every technology that we use everyday</em>, from basic
@@ -81,6 +94,10 @@
         something to hate, but something that
         <em>challenges you to grow as a programmer</em>.
       </p>
+      <div class="blog-1-pic2 pic">
+        <img src="../pictures/blog_pics/c++_features.webp" alt="C++ Features" width="650px" height="350px">
+      </div>
+      
     </main>
   </body>
 </html>

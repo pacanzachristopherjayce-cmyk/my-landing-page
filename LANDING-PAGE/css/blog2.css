@@ -3,6 +3,12 @@ main {
 
 }
 
+.pic {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-block: 3em;
+}
 
 h1 {
   font-size: 35px;
@@ -27,4 +33,41 @@ p {
 
 h2 {
   margin-top: 2em;
+}
+
+figcaption a {
+  all:unset;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+aside {
+  top: 20px;
+  box-shadow: 5px 5px 0 #C2B8B2;
+  float: right;
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  position: sticky;
+}
+
+.aside-bar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-bar ul > a {
+  all: unset;
+  cursor: pointer;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.aside-bar ul > a:hover {
+  color: #197BBD;
+  transition: all 0.5s;
 }

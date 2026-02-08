@@ -15,10 +15,9 @@
   <body>
     <nav>
       <div class="menu">
-        <a class="box"></a>
-        <div class="my-name">chris.</div>
+        <a class="box" href="../landingpage.html"><img src="../pictures/blog_pics/home-icon.svg" alt="home icon" width="50" height="50"></a>
       </div>
-      <ul>
+      <ul class="nav-bar">
         <a class="link part1 jersey-25-regular" href="blog1.html">Tech</a>
         <a class="link part2 jersey-25-regular" href="blog2.html"
           >Personal Voice</a
@@ -26,6 +25,17 @@
         <a class="link part3 jersey-25-regular" href="blog3.html">Career</a>
       </ul>
     </nav>
+
+    <aside> 
+      <div class="aside-bar">
+        <ul>
+          <a href="#introduction">Introduction</a>
+          <a href="#body">Body</a>
+          <a href="#conclusion">Conclusion</a>
+        </ul>
+      </div>
+    </aside>
+
     <main>
       <h1 class="title">Di Pa Perfect, Pero Gumagana: My Python Journey</h1>
       <div class="name">Christopher Jayce Pacanza</div>
@@ -34,7 +44,7 @@
       <hr />
 
       <!-- Introduction -->
-      <h2>Build more, read less</h2>
+      <h2 id="introduction">Build more, read less</h2>
       <p>
         What if the best way to learn programming is not by reading more notes,
         but by actually
@@ -52,9 +62,12 @@
         is not about consuming information, it is about
         <em>actively creating and experimenting</em>.
       </p>
+      <div class="blog-3-pic1 pic">
+        <img src="../pictures/blog_pics/python_source_code.jpg" alt="python code" width="450" height="350"/>
+      </div>
 
       <!-- Body -->
-      <h2 class="body-header">Starting with Python Projects</h2>
+      <h2 class="body-header" id="body">Starting with Python Projects</h2>
       <p>
         Nagsisimula palang ako, so my Python projects are simple. Some focus on
         logic, some on basic systems, and some on problem solving. These
@@ -86,9 +99,12 @@
         that challenge motivates me. I believe that if I stay consistent,
         <em>I can slowly shape myself into the developer I want to become</em>.
       </p>
+      <div class="blog-3-pic2 pic">
+        <img src="../pictures/blog_pics/guy_coding.jpg" alt="guy coding in computer" />
+      </div>
 
       <!-- Conclusion -->
-      <h2>Every progress matters</h2>
+      <h2 id="conclusion">Every progress matters</h2>
       <p>
         Right now, my focus is simple.
         <em class="highlight"
@@ -104,6 +120,9 @@
         <em>every line of code I write makes me better</em>. Because in the end,
         <em>every progress matters</em>.
       </p>
+      <div class="blog-3-pic3 pic">
+        <img src="../pictures/blog_pics/progress.jpg" alt="progress" />
+      </div>
     </main>
   </body>
 </html>
