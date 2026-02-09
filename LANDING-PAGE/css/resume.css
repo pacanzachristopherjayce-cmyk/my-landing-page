@@ -1,0 +1,38 @@
+/* Resume page styles — concept inspired by blog1 but original implementation */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Roboto, Arial, Helvetica, sans-serif;background:#f8fcff;color:#052f34}
+
+/* navigation */
+.resume-nav{display:flex;justify-content:space-between;align-items:center;background:#204B57;padding:0.6rem 1rem;border-radius:8px;margin:1rem}
+.resume-nav .nav-bar{display:flex;gap:1.2rem;align-items:center}
+.resume-nav .nav-bar > a{all:unset;color:#fff;font-size:1.1rem;cursor:pointer}
+
+/* aside */
+.resume-aside{position:sticky;top:20px;float:right;margin:1rem;}
+.resume-aside .aside-bar{width:200px;background:#fff;border:2px solid #000;border-radius:10px;padding:1rem;box-shadow:5px 5px 0 #C2B8B2}
+.resume-aside .aside-bar ul{display:flex;flex-direction:column;gap:.6rem}
+.resume-aside .aside-bar a{all:unset;cursor:pointer;color:#052f34;font-weight:600}
+.resume-aside .aside-bar a:hover{color:#197BBD}
+
+/* main content */
+main{margin:1rem 14rem 4rem 3rem}
+.resume-header{margin-bottom:1rem}
+.resume-header h1{font-family:"Jersey 25", serif;font-size:2.2rem;color:#052f34}
+.meta{color:#4b6b6f;margin-top:.25rem}
+
+section{margin-top:1.6rem}
+section h2{font-family:Georgia,serif;margin-bottom:.6rem}
+.lead{background:#fff;padding:1rem;border-left:6px solid #197BBD;border-radius:6px}
+.item{background:#fff;padding:1rem;border:2px solid #000;border-radius:6px;margin:.6rem 0}
+.date{font-size:.9rem;color:#4b6b6f;margin-bottom:.4rem}
+
+.skills{list-style:none;margin-top:.6rem}
+.skills li{background:#fff;border-left:5px solid #197BBD;padding:.6rem;margin:.4rem 0;border-radius:4px}
+
+.project{background:#fff;padding:.8rem;border-radius:6px;border:1px solid #ddd;margin:.4rem 0}
+
+/* responsive */
+@media(max-width:900px){
+  main{margin:1rem}
+  .resume-aside{display:none}
+}
