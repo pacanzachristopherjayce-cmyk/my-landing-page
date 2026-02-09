@@ -141,3 +141,9 @@ aside {
 em {
   font-weight: bold;
 }
+
+.biography-picture {
+  display: flex;
+  justify-content: center;
+  margin-block: 3em;
+}
