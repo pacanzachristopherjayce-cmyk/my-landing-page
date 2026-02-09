@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .jersey-25-regular {
@@ -8,6 +9,13 @@
   font-weight: 400;
   font-style: normal;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 
 nav {
   border-bottom: 2px solid black;
@@ -86,4 +94,43 @@ footer  a {
   cursor: pointer;
   font-size: 20px;
   
+}
+
+.landing-page-body {
+  width: 95%;
+  height: 600px;
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing-page-body > div {
+  width: 400px;
+  height: 500px;
+  background-color: #FFFFFF;
+  border: 2px solid #197BBD;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landing-page-body > div:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 5px 5px #C2B8B2;
+  transition: all 0.3s ease-in-out;
+}
+
+.landing-page-body > div > a {
+  all: unset;
+  cursor: pointer;
+  color: #011627;
+  font-size: 40px;
+}
+
+.landing-page-body > div > a:hover {
+  color: #C2B8B2;
+
 }
