@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.jersey-25-light {
+  font-family: "Jersey 25", sans-serif!important;
+}
+
 .jersey-25-regular {
   font-family: "Jersey 25", sans-serif!important;
   font-weight: 400;
@@ -121,6 +125,19 @@ footer  a {
   transform: translateY(-2px);
   box-shadow: 1px 5px 5px #C2B8B2;
   transition: all 0.3s ease-in-out;
+}
+
+.landing-page-body > .group-1 {
+  padding: 2em;
+}
+
+.landing-page-body > .group-1 > .short-paragraph-header {
+  font-size: 50px;
+}
+
+.landing-page-body > .group-1 > p {
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 .landing-page-body > div > a {
