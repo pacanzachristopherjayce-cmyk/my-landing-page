@@ -147,3 +147,14 @@ em {
   justify-content: center;
   margin-block: 3em;
 }
+
+.go-to-top-link {
+  all: unset;
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  background-color: #197BBD;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
