@@ -105,34 +105,48 @@ footer  a {
   height: 600px;
   margin: 1em auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  align-items: center;
 }
 
-.landing-page-body > div {
-  width: 400px;
+.landing-page-body > .group-1 {
+  width: 80%;
+  height: 500px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.landing-page-body > .group-2 {
+  width: 80%;
   height: 500px;
   background-color: #FFFFFF;
   border: 2px solid #197BBD;
   border-radius: 10px;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.landing-page-body > div:hover {
+.landing-page-body > .group-2:hover {
   transform: translateY(-2px);
   box-shadow: 1px 5px 5px #C2B8B2;
   transition: all 0.3s ease-in-out;
 }
 
-.landing-page-body > .group-1 {
-  padding: 2em;
-}
 
 .landing-page-body > .group-1 > .short-paragraph-header {
-  font-size: 50px;
+  font-size: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0.5em;
+  padding: 1em;
 }
 
 .landing-page-body > .group-1 > p {
