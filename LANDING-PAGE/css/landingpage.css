@@ -165,3 +165,127 @@ footer  a {
   color: #C2B8B2;
 
 }
+
+/* Gallery Page Styles */
+.gallery-container {
+  width: 95%;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.gallery-title {
+  font-size: 50px;
+  margin-bottom: 2em;
+  color: #011627;
+}
+
+.gallery-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.gallery-button {
+  all: unset;
+  width: 200px;
+  height: 150px;
+  background-color: #FFFFFF;
+  border: 2px solid #197BBD;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: #011627;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 5px 5px #C2B8B2;
+  color: #197BBD;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.gallery-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 2px solid #197BBD;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-image:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 5px 5px #C2B8B2;
+}
+
+.back-button {
+  all: unset;
+  width: 200px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 2px solid #197BBD;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #011627;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 5px 5px #C2B8B2;
+  color: #197BBD;
+}
+
+/* Go to Top Button */
+.go-to-top {
+  all: unset;
+  display: block;
+  width: 150px;
+  height: 50px;
+  background-color: #FFFFFF;
+  border: 2px solid #197BBD;
+  border-radius: 10px;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #011627;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.go-to-top:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 5px 5px #C2B8B2;
+  color: #197BBD;
+}
