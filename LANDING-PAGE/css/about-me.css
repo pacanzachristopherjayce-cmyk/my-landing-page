@@ -40,11 +40,12 @@ body {
 
 .page-nav > ul > a {
     all: unset;
-    padding: 0.5em;
+    padding: 0.8em 1.2em;
     border-radius: 5px;
     cursor: pointer;
     background-color: #204B57;
     color: white;
+    font-size: 1.1em;
 }
 
 .menu {
@@ -144,6 +145,8 @@ em {
 
 .biography-picture {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-block: 3em;
 }
@@ -152,9 +155,10 @@ em {
   all: unset;
   display: inline-block;
   margin-top: 1em;
-  padding: 0.5em 1em;
+  padding: 0.8em 1.5em;
   background-color: #197BBD;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1.1em;
 }
