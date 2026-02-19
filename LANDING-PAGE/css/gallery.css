@@ -1,24 +1,5 @@
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
 
-main > div > iframe 
-{
-  width: 90%;
-  height: 500px;
-  border-radius: 12px;
-}
 
-main > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.title {
-    font-size: 48px;
-    font-family: jersey-25-regular, sans-serif;
+.back-button {
+    margin: 2em;
 }

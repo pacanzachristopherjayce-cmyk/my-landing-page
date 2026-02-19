@@ -1,12 +1,13 @@
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    height: 500px;
-
+    min-height: 500px;
+    padding: 2em 0;
 }
 
-main > div > a {
+main>div>a {
     all: unset;
     font-size: 40px;
     font-family: 'Jersey 25', cursive;
@@ -14,11 +15,11 @@ main > div > a {
     cursor: pointer;
 }
 
-main > div > a:hover {
+main>div>a:hover {
     color: #ff0000;
 }
 
-main > div > a {
+main>div>a {
     all: unset;
     font-size: 40px;
     font-family: 'Jersey 25', cursive;
@@ -35,4 +36,3 @@ main > div > a {
     padding: 10em;
     border-radius: 10px;
 }
-

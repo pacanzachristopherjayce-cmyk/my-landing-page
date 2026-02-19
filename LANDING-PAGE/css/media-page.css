@@ -1,0 +1,55 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+main>div>iframe {
+    width: 90%;
+    height: 500px;
+    border-radius: 12px;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+    font-family: jersey-25-regular, sans-serif;
+}
+
+.gallery-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.gallery-button {
+    all: unset;
+    width: 400px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 2px solid #197BBD;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: #011627;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 1px 5px 5px #C2B8B2;
+    color: #197BBD;
+}
