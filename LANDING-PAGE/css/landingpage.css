@@ -102,7 +102,7 @@ footer  a {
 
 .landing-page-body {
   width: 95%;
-  height: 600px;
+  height: 800px;
   margin: 1em auto;
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ footer  a {
 
 .landing-page-body > .group-1 {
   width: 80%;
-  height: 500px;
+  height: 310px;
   border-radius: 10px;
 
   display: flex;
@@ -121,25 +121,49 @@ footer  a {
   align-items: center;
 }
 
-.landing-page-body > .group-2 {
+.parent {
+  margin-block: 2em ;
   width: 80%;
-  height: 500px;
-  background-color: #FFFFFF;
-  border: 2px solid #197BBD;
-  border-radius: 10px;
+  height: 1500px  ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.parent > * {
+  border: 2px solid black; 
+  margin: 0.2em;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.landing-page-body > .group-2:hover {
+.parent > .container > a {
+  all: unset;
+  cursor: pointer;
+  color: #011627;
+  font-size: 40px;
+}
+
+.parent > *:hover {
   transform: translateY(-2px);
   box-shadow: 1px 5px 5px #C2B8B2;
-  transition: all 0.3s ease-in-out;
 }
 
+.parent > .container > a:hover {
+  color: gray;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 4; }
+.div2 { grid-area: 1 / 4 / 5 / 5; }
+.div3 { grid-area: 3 / 1 / 5 / 2; }
+.div4 { grid-area: 3 / 2 / 5 / 3; }
+.div5 { grid-area: 3 / 3 / 5 / 4; } 
 
 .landing-page-body > .group-1 > .short-paragraph-header {
   font-size: 100px;
@@ -215,7 +239,7 @@ footer  a {
   color: #197BBD;
 }
 
-/* Image Gallery Styles */
+
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -289,3 +313,4 @@ footer  a {
   box-shadow: 1px 5px 5px #C2B8B2;
   color: #197BBD;
 }
+

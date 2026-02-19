@@ -1,0 +1,38 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+
+main > div > a {
+    all: unset;
+    font-size: 40px;
+    font-family: 'Jersey 25', cursive;
+    color: #011627;
+    cursor: pointer;
+}
+
+main > div > a:hover {
+    color: #ff0000;
+}
+
+main > div > a {
+    all: unset;
+    font-size: 40px;
+    font-family: 'Jersey 25', cursive;
+    color: #011627;
+    cursor: pointer;
+}
+
+
+.beats {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    border: 2px solid #011627;
+    padding: 10em;
+    border-radius: 10px;
+}
+
