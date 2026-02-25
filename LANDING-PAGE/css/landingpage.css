@@ -169,7 +169,11 @@
   }
 
   .div3 {
-    grid-area: 3 / 1 / 5 / 4;
+    grid-area: 3 / 1 / 5 / 2;
+  }
+
+  .div4 {
+    grid-area: 3 / 2 / 5 / 4;
   }
 
   .landing-page-body>.group-1>.short-paragraph-header {
