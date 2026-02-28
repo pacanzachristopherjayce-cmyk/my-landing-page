@@ -4,14 +4,13 @@ main {
     justify-content: space-around;
 }
 
-main > div > iframe 
-{
-  width: 100%;
-  height: 500px;
-  border-radius: 12px;
+main>div>iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 12px;
 }
 
-main > div {
+main>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,21 +26,67 @@ main > div {
 
 .artist-info {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     margin-top: 1em;
     background-color: #f0f0f0;
     border-radius: 12px;
-}
-
-.artist-info {
     padding: 1em;
     font-size: 18px;
     text-align: justify;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Jersey 25', sans-serif;
     line-height: 1.5;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.artist-info strong {
+    display: block;
+    margin-top: 0.8em;
+}
+
+.music-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.music-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.music-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.music-card-image {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8em;
+}
+
+.music-card-title {
+    font-size: 24px;
+    font-family: 'Jersey 25', sans-serif;
+    margin-bottom: 0.8em;
+    color: #333;
+}
+
+.music-player {
+    width: 100%;
+    max-width: 250px;
 }
 
 .back-button {

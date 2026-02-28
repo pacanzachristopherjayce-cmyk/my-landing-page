@@ -1,0 +1,92 @@
+/* Bucket List Page Styles */
+
+.title {
+    font-size: 100px;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.bucket-list-container {
+    width: 90%;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2em;
+}
+
+.bucket-item {
+    border: 2px solid #011627;
+    border-radius: 10px;
+    padding: 1.5em;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bucket-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 1px 8px 12px #C2B8B2;
+}
+
+.bucket-item a {
+    all: unset;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.bucket-item a:hover img {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+
+.bucket-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+.bucket-title {
+    font-family: 'Jersey 25', sans-serif;
+    font-size: 28px;
+    color: #011627;
+    margin-bottom: 0.8em;
+    font-weight: 600;
+}
+
+.bucket-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.go-to-top {
+    display: block;
+    margin: 2em auto;
+    text-align: center;
+    font-size: 20px;
+    color: #011627;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.go-to-top:hover {
+    color: #C2B8B2;
+}
+
+.back-button {
+    display: flex;
+    place-items: center;
+    margin: 3em auto 2em;
+    text-align: center;
+    font-size: 20px;
+    color: #011627;
+    cursor: pointer;
+    text-decoration: none;
+}
